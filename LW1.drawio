@@ -1,9 +1,137 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.0.14">
   <diagram name="Page-1" id="ePtRdiWB0lYETpGEfXJb">
-    <mxGraphModel>
+    <mxGraphModel dx="1687" dy="1402" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HpuaDuaV2_q1oHEFar94-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=ERone;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="HpuaDuaV2_q1oHEFar94-1" target="HpuaDuaV2_q1oHEFar94-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="HpuaDuaV2_q1oHEFar94-1" target="HpuaDuaV2_q1oHEFar94-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="-2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-1" value="Пользователь (User)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="-223" width="210" height="177" as="geometry">
+            <mxRectangle x="501" y="-118" width="151" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-2" value="&lt;b&gt;ID&lt;/b&gt;&lt;div&gt;Имя&lt;/div&gt;&lt;div&gt;Фото&lt;/div&gt;&lt;div&gt;Дата рождения&lt;/div&gt;&lt;div&gt;Город&lt;/div&gt;&lt;div&gt;Email&lt;/div&gt;&lt;div&gt;&lt;b&gt;FK&lt;/b&gt; ID программы лояльности&lt;/div&gt;&lt;div&gt;Настройки оповещений&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="HpuaDuaV2_q1oHEFar94-1">
+          <mxGeometry y="50" width="210" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-10" value="Программа лояльности (Loyalty program)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="809" y="-197.5" width="193" height="126" as="geometry">
+            <mxRectangle x="707" y="-118" width="264" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-11" value="&lt;b&gt;PK&lt;/b&gt; ID&lt;br&gt;&lt;b&gt;FK&lt;/b&gt; ID пользователя&lt;br&gt;Бонусный баланс&lt;br&gt;Дата последнего обновления" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="HpuaDuaV2_q1oHEFar94-10">
+          <mxGeometry y="50" width="193" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-13" value="Товар (Product)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="3" width="155" height="176" as="geometry">
+            <mxRectangle x="319" y="-19" width="122" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-14" value="&lt;b&gt;PK&lt;/b&gt; ID&lt;br&gt;Название&lt;br&gt;Фото&lt;br&gt;Информация о товаре&lt;br&gt;Стоимость&lt;br&gt;Масса&lt;br&gt;Состав&lt;br&gt;Информация о наличии" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="HpuaDuaV2_q1oHEFar94-13">
+          <mxGeometry y="50" width="155" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-15" value="Отзыв (Review)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="271" y="-207.5" width="148" height="146" as="geometry">
+            <mxRectangle x="319" y="-118" width="122" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-16" value="PK ID&#xa;FK ID пользователя&#xa;FK ID товара&#xa;Оценка&#xa;Текст отзыва&#xa;Дата публикации" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="HpuaDuaV2_q1oHEFar94-15">
+          <mxGeometry y="50" width="148" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-17" value="Заказ (Order)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="536" y="39" width="156" height="145" as="geometry">
+            <mxRectangle x="521" y="-19" width="111" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-18" value="PK ID&#xa;FK ID пользователя&#xa;Дата создания&#xa;Способ получения&#xa;Статус&#xa;Сумма" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="HpuaDuaV2_q1oHEFar94-17">
+          <mxGeometry y="50" width="156" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-19" value="Состав заказа (Order Item)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="279" width="160" height="120" as="geometry">
+            <mxRectangle x="255" y="77" width="186" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-20" value="PK ID&#xa;FK ID заказа&#xa;FK ID товара&#xa;Количество" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="HpuaDuaV2_q1oHEFar94-19">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-21" value="Способы оплаты (Payment Method)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="809" y="39" width="311" height="104" as="geometry">
+            <mxRectangle x="712" y="-19" width="232" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-22" value="PK ID&lt;br&gt;FK ID пользователя&lt;br&gt;Название" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="HpuaDuaV2_q1oHEFar94-21">
+          <mxGeometry y="50" width="311" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-23" value="Оплата (Payment)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="811" y="254" width="165" height="131" as="geometry">
+            <mxRectangle x="712" y="77" width="136" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-24" value="PK ID&#xa;FK ID заказа&#xa;FK ID способа оплаты&#xa;Статус транзакции&#xa;Сумма списанных бонусов" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="HpuaDuaV2_q1oHEFar94-23">
+          <mxGeometry y="50" width="165" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-25" value="Доставка (Delivery)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="532" y="254" width="164" height="145" as="geometry">
+            <mxRectangle x="505" y="75" width="143" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-26" value="PK ID&#xa;FK ID заказа&#xa;Тип (курьер, самовывоз)&#xa;Адрес&#xa;Курьер&#xa;Статус доставки" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="HpuaDuaV2_q1oHEFar94-25">
+          <mxGeometry y="50" width="164" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="HpuaDuaV2_q1oHEFar94-1" target="HpuaDuaV2_q1oHEFar94-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="-30" as="sourcePoint" />
+            <mxPoint x="393" y="-87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="HpuaDuaV2_q1oHEFar94-1" target="HpuaDuaV2_q1oHEFar94-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="536" y="18" as="sourcePoint" />
+            <mxPoint x="639" y="63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="HpuaDuaV2_q1oHEFar94-19" target="HpuaDuaV2_q1oHEFar94-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492" y="4" as="sourcePoint" />
+            <mxPoint x="672" y="141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="HpuaDuaV2_q1oHEFar94-13" target="HpuaDuaV2_q1oHEFar94-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442.5" y="-37" as="sourcePoint" />
+            <mxPoint x="622.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="HpuaDuaV2_q1oHEFar94-17" target="HpuaDuaV2_q1oHEFar94-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="507" y="92" as="sourcePoint" />
+            <mxPoint x="687" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startArrow=ERone;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="HpuaDuaV2_q1oHEFar94-23" target="HpuaDuaV2_q1oHEFar94-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="532" y="110.58000000000001" as="sourcePoint" />
+            <mxPoint x="590" y="110.58000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startArrow=ERone;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="HpuaDuaV2_q1oHEFar94-17" target="HpuaDuaV2_q1oHEFar94-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="872" y="31" as="sourcePoint" />
+            <mxPoint x="930" y="31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpuaDuaV2_q1oHEFar94-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="HpuaDuaV2_q1oHEFar94-21" target="HpuaDuaV2_q1oHEFar94-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="170" as="sourcePoint" />
+            <mxPoint x="675" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
