@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.0.14">
   <diagram name="Page-1" id="PA6goV8-cNR6Mvob7BMG">
-    <mxGraphModel dx="562" dy="1446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1158" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,12 +79,12 @@
         <mxCell id="i-CCy0--mV5obR6uH1pO-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="i-CCy0--mV5obR6uH1pO-29" vertex="1">
           <mxGeometry y="60" width="220" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-34" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;U/С&lt;/div&gt;&lt;div&gt;FK&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-33" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-34" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;U/C&lt;/div&gt;&lt;div&gt;FK&lt;/div&gt;&lt;div&gt;D&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-33" vertex="1">
           <mxGeometry width="30" height="110" as="geometry">
             <mxRectangle width="30" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-35" value="&lt;div style=&quot;white-space: nowrap;&quot;&gt;Имя (VARCHAR)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Фото (BLOB)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Дата рождения (DATE)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Город (VARCHAR)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Email (VARCHAR)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;ID программы лояльности&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Настройки оповещений (TEXT)&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-33" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-35" value="&lt;div style=&quot;white-space: nowrap;&quot;&gt;Имя (VARCHAR)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Фото (BLOB)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Дата рождения (DATE)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Город (VARCHAR)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Email (VARCHAR)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;ID программы лояльности (INT)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Настройки оповещений (TEXT)&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-33" vertex="1">
           <mxGeometry x="30" width="190" height="110" as="geometry">
             <mxRectangle width="190" height="110" as="alternateBounds" />
           </mxGeometry>
@@ -108,12 +108,12 @@
         <mxCell id="i-CCy0--mV5obR6uH1pO-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="i-CCy0--mV5obR6uH1pO-43" vertex="1">
           <mxGeometry y="60" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-48" value="FK&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-47" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-48" value="FK&lt;div&gt;D&lt;/div&gt;&lt;div&gt;NN&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-47" vertex="1">
           <mxGeometry width="30" height="62" as="geometry">
             <mxRectangle width="30" height="62" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-49" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID пользователя&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Бонусный баланс (DECINAL)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Дата последнего обновления (DATE)&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-47" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-49" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID пользователя&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap; text-decoration: underline;&quot;&gt;(INTEGER)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Бонусный баланс (DECINAL)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Дата последнего обновления (DATE)&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-47" vertex="1">
           <mxGeometry x="30" width="230" height="62" as="geometry">
             <mxRectangle width="230" height="62" as="alternateBounds" />
           </mxGeometry>
@@ -137,18 +137,18 @@
         <mxCell id="i-CCy0--mV5obR6uH1pO-60" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="i-CCy0--mV5obR6uH1pO-56" vertex="1">
           <mxGeometry y="60" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-61" value="FK&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-60" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-61" value="FK&lt;div&gt;NN&lt;/div&gt;&lt;div&gt;NN&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-60" vertex="1">
           <mxGeometry width="30" height="50" as="geometry">
             <mxRectangle width="30" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-62" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID пользователя&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Название (VARCHAR)&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-60" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-62" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID пользователя&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap; text-decoration: underline;&quot;&gt;(INTEGER)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Название (VARCHAR)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Данные для оплаты (TEXT)&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-60" vertex="1">
           <mxGeometry x="30" width="210" height="50" as="geometry">
             <mxRectangle width="210" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="i-CCy0--mV5obR6uH1pO-82" value="&lt;b&gt;Состав заказа (Order Item)&lt;/b&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="232.5" y="193" width="180" height="117" as="geometry" />
+          <mxGeometry x="232.5" y="233" width="180" height="117" as="geometry" />
         </mxCell>
         <mxCell id="i-CCy0--mV5obR6uH1pO-83" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="i-CCy0--mV5obR6uH1pO-82" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -171,42 +171,13 @@
             <mxRectangle width="30" height="57" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-88" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID заказа&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID товара&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Количество (INTEGER)&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-86" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-88" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID заказа&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap; text-decoration: underline;&quot;&gt;(INTEGER)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID товара&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap; text-decoration: underline;&quot;&gt;(INTEGER)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Количество (INTEGER)&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-86" vertex="1">
           <mxGeometry x="30" width="150" height="57" as="geometry">
             <mxRectangle width="150" height="57" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-89" value="&lt;span style=&quot;white-space: normal;&quot;&gt;Доставка (Delivery)&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="556" y="165" width="208" height="147" as="geometry" />
-        </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-90" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="i-CCy0--mV5obR6uH1pO-89" vertex="1">
-          <mxGeometry y="30" width="208" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-91" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-90" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-92" value="&lt;span style=&quot;font-weight: 400; white-space: nowrap; text-decoration: none;&quot;&gt;ID (INTEGER)&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-90" vertex="1">
-          <mxGeometry x="30" width="178" height="30" as="geometry">
-            <mxRectangle width="178" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-93" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="i-CCy0--mV5obR6uH1pO-89" vertex="1">
-          <mxGeometry y="60" width="208" height="87" as="geometry" />
-        </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-94" value="FK&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NN&lt;/div&gt;&lt;div&gt;NN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;D&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-93" vertex="1">
-          <mxGeometry width="30" height="87" as="geometry">
-            <mxRectangle width="30" height="87" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-95" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID заказа&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Тип (VARCHAR)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Адрес (VARCHAR)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Курьер (VARCHAR)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Статус доставки (VARCHAR)&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-93" vertex="1">
-          <mxGeometry x="30" width="178" height="87" as="geometry">
-            <mxRectangle width="178" height="87" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="i-CCy0--mV5obR6uH1pO-96" value="&lt;span style=&quot;white-space: normal;&quot;&gt;Оплата (Payment)&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="870" y="190" width="260" height="120" as="geometry" />
+          <mxGeometry x="870" y="230" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="i-CCy0--mV5obR6uH1pO-97" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="i-CCy0--mV5obR6uH1pO-96" vertex="1">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
@@ -224,12 +195,12 @@
         <mxCell id="i-CCy0--mV5obR6uH1pO-100" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="i-CCy0--mV5obR6uH1pO-96" vertex="1">
           <mxGeometry y="60" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-101" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: nowrap; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none;&quot;&gt;FK&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: nowrap; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none;&quot;&gt;FK&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: nowrap; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none;&quot;&gt;D&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: nowrap; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none;&quot;&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bb%20style%3D%26quot%3Bcaret-color%3A%20rgb(0%2C%200%2C%200)%3B%20color%3A%20rgb(0%2C%200%2C%200)%3B%20font-family%3A%20Helvetica%3B%20font-size%3A%2012px%3B%20font-style%3A%20normal%3B%20font-variant-caps%3A%20normal%3B%20letter-spacing%3A%20normal%3B%20orphans%3A%20auto%3B%20text-align%3A%20left%3B%20text-indent%3A%200px%3B%20text-transform%3A%20none%3B%20white-space%3A%20nowrap%3B%20widows%3A%20auto%3B%20word-spacing%3A%200px%3B%20-webkit-text-stroke-width%3A%200px%3B%20text-decoration%3A%20none%3B%26quot%3B%26gt%3BFK%26lt%3B%2Fb%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bcaret-color%3A%20rgb(0%2C%200%2C%200)%3B%20color%3A%20rgb(0%2C%200%2C%200)%3B%20font-family%3A%20Helvetica%3B%20font-size%3A%2012px%3B%20font-style%3A%20normal%3B%20font-variant-caps%3A%20normal%3B%20font-weight%3A%20400%3B%20letter-spacing%3A%20normal%3B%20orphans%3A%20auto%3B%20text-align%3A%20left%3B%20text-indent%3A%200px%3B%20text-transform%3A%20none%3B%20white-space%3A%20nowrap%3B%20widows%3A%20auto%3B%20word-spacing%3A%200px%3B%20-webkit-text-stroke-width%3A%200px%3B%20text-decoration%3A%20none%3B%26quot%3B%26gt%3B%26amp%3Bnbsp%3B%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22shape%3DpartialRectangle%3Bconnectable%3D0%3BfillColor%3Dnone%3Btop%3D0%3Bleft%3D0%3Bbottom%3D0%3Bright%3D0%3Beditable%3D1%3Boverflow%3Dhidden%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22860%22%20y%3D%22330%22%20width%3D%2230%22%20height%3D%2260%22%20as%3D%22geometry%22%3E%3CmxRectangle%20width%3D%2230%22%20height%3D%2260%22%20as%3D%22alternateBounds%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModNNТТТТ&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=0" parent="i-CCy0--mV5obR6uH1pO-100" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-101" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); text-wrap-mode: nowrap;&quot;&gt;FK&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); text-wrap-mode: nowrap;&quot;&gt;FK&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); text-wrap-mode: nowrap;&quot;&gt;D&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); text-wrap-mode: nowrap;&quot;&gt;NN&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=0" parent="i-CCy0--mV5obR6uH1pO-100" vertex="1">
           <mxGeometry width="30" height="60" as="geometry">
             <mxRectangle width="30" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-102" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID заказа&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID способа оплаты&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Статус транзакции (VARCHAR)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Сумма списанных бонусов (DECIMAL)&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-100" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-102" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID заказа&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap; text-decoration: underline;&quot;&gt;(INTEGER)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID способа оплаты&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap; text-decoration: underline;&quot;&gt;(INTEGER)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Статус транзакции (VARCHAR)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Сумма списанных бонусов (DECIMAL)&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-100" vertex="1">
           <mxGeometry x="30" width="230" height="60" as="geometry">
             <mxRectangle width="230" height="60" as="alternateBounds" />
           </mxGeometry>
@@ -253,12 +224,12 @@
         <mxCell id="i-CCy0--mV5obR6uH1pO-107" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="i-CCy0--mV5obR6uH1pO-103" vertex="1">
           <mxGeometry y="60" width="216" height="103" as="geometry" />
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-108" value="FK&lt;div&gt;FK&lt;/div&gt;&lt;div&gt;FK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-107" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-108" value="FK&lt;div&gt;FK&lt;/div&gt;&lt;div&gt;FK&lt;/div&gt;&lt;div&gt;NN&lt;/div&gt;&lt;div&gt;NN&lt;/div&gt;&lt;div&gt;NN&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-107" vertex="1">
           <mxGeometry width="30" height="103" as="geometry">
             <mxRectangle width="30" height="103" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-109" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID пользователя&lt;/span&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;ID оплаты&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;ID доставки&lt;br&gt;Дата создания (DATE)&lt;br&gt;Способ получения (VARCHAR)&lt;br&gt;Сумма (DECIMAL)&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-107" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-109" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID пользователя&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap; text-decoration: underline;&quot;&gt;(INTEGER)&lt;/span&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;ID оплаты&amp;nbsp;&lt;span style=&quot;text-decoration: underline;&quot;&gt;(INTEGER)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;ID доставки&amp;nbsp;&lt;span style=&quot;text-decoration: underline;&quot;&gt;(INTEGER)&lt;/span&gt;&lt;br&gt;Дата создания (DATE)&lt;br&gt;Способ получения (VARCHAR)&lt;br&gt;Сумма (DECIMAL)&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-107" vertex="1">
           <mxGeometry x="30" width="186" height="103" as="geometry">
             <mxRectangle width="186" height="103" as="alternateBounds" />
           </mxGeometry>
@@ -319,6 +290,35 @@
         <mxCell id="i-CCy0--mV5obR6uH1pO-123" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;Название (VARCHAR)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Фото (BLOB)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Информация о товаре (TEXT)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Стоимость (DECIMAL)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Масса (DECIMAL)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Состав (TEXT)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Информация о наличии (TEXT)&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-121" vertex="1">
           <mxGeometry x="30" width="200" height="128" as="geometry">
             <mxRectangle width="200" height="128" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-CCy0--mV5obR6uH1pO-89" value="&lt;span style=&quot;white-space: normal;&quot;&gt;Доставка (Delivery)&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="200" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="i-CCy0--mV5obR6uH1pO-90" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="i-CCy0--mV5obR6uH1pO-89" vertex="1">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i-CCy0--mV5obR6uH1pO-91" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-90" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-CCy0--mV5obR6uH1pO-92" value="&lt;span style=&quot;font-weight: 400; white-space: nowrap; text-decoration: none;&quot;&gt;ID (INTEGER)&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-90" vertex="1">
+          <mxGeometry x="30" width="180" height="30" as="geometry">
+            <mxRectangle width="180" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-CCy0--mV5obR6uH1pO-93" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="i-CCy0--mV5obR6uH1pO-89" vertex="1">
+          <mxGeometry y="60" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i-CCy0--mV5obR6uH1pO-94" value="&lt;div&gt;FK&lt;/div&gt;&lt;div&gt;NN&lt;/div&gt;&lt;div&gt;NN&lt;/div&gt;&lt;div&gt;NN&lt;/div&gt;&lt;div&gt;D&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-93" vertex="1">
+          <mxGeometry width="30" height="90" as="geometry">
+            <mxRectangle width="30" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-CCy0--mV5obR6uH1pO-95" value="&lt;div&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID заказа&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap; text-decoration: underline;&quot;&gt;(INTEGER)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Тип (VARCHAR)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Адрес (VARCHAR)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Курьер (VARCHAR)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Статус доставки (VARCHAR)&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-93" vertex="1">
+          <mxGeometry x="30" width="180" height="90" as="geometry">
+            <mxRectangle width="180" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
