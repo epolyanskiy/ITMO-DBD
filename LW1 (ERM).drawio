@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.0.14">
   <diagram name="Page-1" id="ePtRdiWB0lYETpGEfXJb">
-    <mxGraphModel dx="1406" dy="1264" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="984" dy="1033" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,17 +52,6 @@
         <mxCell id="HpuaDuaV2_q1oHEFar94-18" value="ID&lt;br&gt;ID пользователя&lt;br&gt;Дата создания&lt;br&gt;Способ получения&lt;br&gt;Статус&lt;br&gt;Сумма" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="HpuaDuaV2_q1oHEFar94-17" vertex="1">
           <mxGeometry y="50" width="156" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="HpuaDuaV2_q1oHEFar94-19" value="Состав заказа (Order Item)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="265" y="279" width="160" height="120" as="geometry">
-            <mxRectangle x="255" y="77" width="186" height="50" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HpuaDuaV2_q1oHEFar94-20" value="ID&lt;div&gt;ID заказа&lt;/div&gt;&lt;div&gt;ID товара&lt;br&gt;Количество&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="HpuaDuaV2_q1oHEFar94-19" vertex="1">
-          <mxGeometry y="50" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qWYat9TnEqYM7BmWWxSt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.675;entryY=0.07;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="HpuaDuaV2_q1oHEFar94-19" source="HpuaDuaV2_q1oHEFar94-20" target="HpuaDuaV2_q1oHEFar94-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="HpuaDuaV2_q1oHEFar94-21" value="Способы оплаты (Payment Method)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="814" y="43" width="188" height="100" as="geometry">
             <mxRectangle x="712" y="-19" width="232" height="50" as="alternateBounds" />
@@ -80,7 +69,7 @@
           <mxGeometry y="50" width="165" height="81" as="geometry" />
         </mxCell>
         <mxCell id="HpuaDuaV2_q1oHEFar94-25" value="Доставка (Delivery)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="532" y="254" width="164" height="145" as="geometry">
+          <mxGeometry x="271" y="254" width="164" height="145" as="geometry">
             <mxRectangle x="505" y="75" width="143" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -99,19 +88,13 @@
             <mxPoint x="639" y="63" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HpuaDuaV2_q1oHEFar94-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" parent="1" source="HpuaDuaV2_q1oHEFar94-19" target="HpuaDuaV2_q1oHEFar94-13" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="492" y="4" as="sourcePoint" />
-            <mxPoint x="672" y="141" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="HpuaDuaV2_q1oHEFar94-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" parent="1" source="HpuaDuaV2_q1oHEFar94-13" target="HpuaDuaV2_q1oHEFar94-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="442.5" y="-37" as="sourcePoint" />
             <mxPoint x="622.5" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HpuaDuaV2_q1oHEFar94-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" parent="1" source="HpuaDuaV2_q1oHEFar94-17" target="HpuaDuaV2_q1oHEFar94-19" edge="1">
+        <mxCell id="HpuaDuaV2_q1oHEFar94-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=ERmany;startFill=0;endArrow=ERmany;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HpuaDuaV2_q1oHEFar94-17" target="HpuaDuaV2_q1oHEFar94-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="507" y="92" as="sourcePoint" />
             <mxPoint x="687" y="229" as="targetPoint" />
