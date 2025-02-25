@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.0.14">
   <diagram name="Page-1" id="PA6goV8-cNR6Mvob7BMG">
-    <mxGraphModel dx="825" dy="1517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1196" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,12 +81,12 @@
         <mxCell id="i-CCy0--mV5obR6uH1pO-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="i-CCy0--mV5obR6uH1pO-29" vertex="1">
           <mxGeometry y="60" width="300" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-34" value="&lt;div&gt;NN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NN, U, IDX&lt;/div&gt;&lt;div&gt;&lt;b&gt;FK&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-33" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-34" value="&lt;div&gt;NN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NN, U, C&lt;/div&gt;&lt;div&gt;&lt;b&gt;FK&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-33" vertex="1">
           <mxGeometry width="70" height="110" as="geometry">
             <mxRectangle width="70" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-35" value="&lt;div style=&quot;white-space: nowrap;&quot;&gt;Имя (VARCHAR)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Фото (VARCHAR)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Дата рождения (DATE)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Город (VARCHAR)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Email (VARCHAR)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;ID программы лояльности (INT)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Настройки оповещений (TEXT)&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-33" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-35" value="&lt;div style=&quot;white-space: nowrap;&quot;&gt;Имя (VARCHAR)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Фото (VARCHAR)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Дата рождения (DATE)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Город (VARCHAR)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Email (VARCHAR, email)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;ID программы лояльности (INT)&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;Настройки оповещений (TEXT)&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-33" vertex="1">
           <mxGeometry x="70" width="230" height="110" as="geometry">
             <mxRectangle width="230" height="110" as="alternateBounds" />
           </mxGeometry>
@@ -265,7 +265,7 @@
         <mxCell id="i-CCy0--mV5obR6uH1pO-121" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="i-CCy0--mV5obR6uH1pO-117" vertex="1">
           <mxGeometry y="50" width="300" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="i-CCy0--mV5obR6uH1pO-122" value="NN, IDX&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-121" vertex="1">
+        <mxCell id="i-CCy0--mV5obR6uH1pO-122" value="NN&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="i-CCy0--mV5obR6uH1pO-121" vertex="1">
           <mxGeometry width="70" height="120" as="geometry">
             <mxRectangle width="70" height="120" as="alternateBounds" />
           </mxGeometry>
