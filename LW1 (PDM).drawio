@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.0.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.0.16">
   <diagram name="Page-1" id="PA6goV8-cNR6Mvob7BMG">
-    <mxGraphModel dx="1196" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="984" dy="1733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -304,7 +304,7 @@
             <mxRectangle width="220" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WVNXeYTEziDUGYcYf1OW-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startArrow=ERone;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="i-CCy0--mV5obR6uH1pO-96" target="i-CCy0--mV5obR6uH1pO-56">
+        <mxCell id="WVNXeYTEziDUGYcYf1OW-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startArrow=ERone;startFill=0;endArrow=ERone;endFill=0;" parent="1" source="i-CCy0--mV5obR6uH1pO-96" target="i-CCy0--mV5obR6uH1pO-56" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="930" y="230" as="sourcePoint" />
             <mxPoint x="544" y="-12" as="targetPoint" />
@@ -339,6 +339,12 @@
         <mxCell id="i-CCy0--mV5obR6uH1pO-62" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;ID пользователя&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;(INT)&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Название (VARCHAR)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Данные для оплаты (TEXT)&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=0" parent="i-CCy0--mV5obR6uH1pO-60" vertex="1">
           <mxGeometry x="70" width="230" height="50" as="geometry">
             <mxRectangle width="230" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2PiAMjLxHhclVSlnVQs-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;entryX=0.083;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="i-CCy0--mV5obR6uH1pO-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="-13.5" as="sourcePoint" />
+            <mxPoint x="894" y="46.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
